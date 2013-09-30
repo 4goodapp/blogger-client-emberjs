@@ -1,0 +1,8 @@
+nav.navbar.navbar-default(role='navigation')
+  .navbar-header
+    a.navbar-brand(href='#') Brand
+  .collapse.navbar-collapse.navbar-ex1-collapse
+    ul.nav.navbar-nav
+      li {{#link-to 'posts'}}Posts{{/link-to}}
+      li {{#link-to 'about'}}About{{/link-to}}
+| {{outlet}}

@@ -1,0 +1,17 @@
+.container
+  .row
+    .col-md-3
+      table.table
+        thead
+          tr
+            th Recent Posts
+        {{#each}}
+        tr
+          td
+            {{#link-to 'post' this}}
+            {{title}} &nbsp;
+            small.text-muted by {{author.name}}
+            {{/link-to}}
+        {{/each}}
+    .col-md-9
+      {{outlet}}

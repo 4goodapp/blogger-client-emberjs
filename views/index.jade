@@ -1,0 +1,31 @@
+!!! 5
+html
+  head
+    meta(charset='utf-8')
+    title Ember Starter Kit
+    link(rel='stylesheet', href='css/normalize.css')
+    link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css')
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css')
+  body
+    script(type='text/x-handlebars')
+      include main
+
+    script#about(type='text/x-handlebars')
+      include about
+
+    script#posts(type='text/x-handlebars')
+      include posts
+
+    script#post(type='text/x-handlebars')
+      include post
+
+    script(id="post/_edit", type='text/x-handlebars')
+      include post_edit
+
+
+    script(src='js/libs/jquery-1.9.1.js')
+    script(src='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js')
+    script(src='js/libs/handlebars-1.0.0.js')
+    script(src='js/libs/ember-1.0.0.js')
+    script(src='js/app.js')
