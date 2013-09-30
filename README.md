@@ -1,8 +1,8 @@
+=======
+blogger-client
+==============
 
-- EmberJS
-- Bootstrap
-- Jade
-- bower
+An Ember.js blogger application and use jade template engine
 
 ## jade to html
 
