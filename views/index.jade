@@ -3,10 +3,10 @@ html
   head
     meta(charset='utf-8')
     title Ember Starter Kit
-    link(rel='stylesheet', href='css/normalize.css')
+    link(rel='stylesheet', href='vendor/normalize-css/normalize.css')
+    link(rel='stylesheet', href='vendor/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='vendor/bootstrap/dist/css/bootstrap-theme.min.css')
     link(rel='stylesheet', href='css/style.css')
-    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css')
-    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css')
   body
     script(type='text/x-handlebars')
       include main
@@ -24,8 +24,8 @@ html
       include post_edit
 
 
-    script(src='js/libs/jquery-1.9.1.js')
-    script(src='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js')
-    script(src='js/libs/handlebars-1.0.0.js')
-    script(src='js/libs/ember-1.0.0.js')
+    script(src='vendor/jquery/jquery.min.js')
+    script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
+    script(src='vendor/handlebars/handlebars.js')
+    script(src='vendor/ember/ember.js')
     script(src='js/app.js')

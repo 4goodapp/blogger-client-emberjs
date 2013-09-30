@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "ember": "~1.0.0",
-    "bootstrap": "~3.0.0"
+    "bootstrap": "~3.0.0",
+    "normalize-css": "~2.1.3"
   }
 }
