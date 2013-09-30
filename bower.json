@@ -1,0 +1,21 @@
+{
+  "name": "blogger-client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hankwang/blogger-client",
+  "authors": [
+    "Hank Wang <drapho@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.0.0",
+    "bootstrap": "~3.0.0"
+  }
+}
