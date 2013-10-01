@@ -10,9 +10,12 @@ An Ember.js blogger application with jade template engine
 - Bootstrap
 - MomentJS
 - bower
+
+`$ bower install`
+
 - jade
 
-`$ jade -P views/index.jade public/`
+`$ jade -P views/index.jade -o public/`
 
 - EditorConfig
 
