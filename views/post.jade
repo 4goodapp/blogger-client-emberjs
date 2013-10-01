@@ -7,10 +7,10 @@
 
 h1 {{title}}
 h2 by {{author.name}}
-  small.text-muted ({{date}})
+  small.text-muted  ({{format-date date}})
 hr
 .intro
-  {{excerpt}}
+  {{format-markdown excerpt}}
 
 .below-the-fold
-  {{body}}
+  {{format-markdown body}}

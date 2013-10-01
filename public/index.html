@@ -53,21 +53,22 @@
       <button {{action 'edit'}}>Edit</button>
       {{/if}}
       <h1>{{title}}</h1>
-      <h2>by {{author.name}}<small class="text-muted">({{date}})</small></h2>
+      <h2>by {{author.name}}<small class="text-muted"> ({{format-date date}})</small></h2>
       <hr>
-      <div class="intro">{{excerpt}}</div>
-      <div class="below-the-fold">{{body}}</div>
+      <div class="intro">{{format-markdown excerpt}}</div>
+      <div class="below-the-fold">{{format-markdown body}}</div>
     </script>
     <script id="post/_edit" type="text/x-handlebars">
-      <p>{{input type="text" value=title}}</p>
+      <p>{{input class="" type="text" value=title}}</p>
       <p>{{input type="text" value=excerpt}}</p>
-      <p>{{textarea value=body}}</p>
+      <p>{{textarea value=body cols=90 rows=6}}</p>
     </script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="vendor/handlebars/handlebars.js"></script>
     <script src="vendor/ember/ember.js"></script>
-    <script src="vendor/moment/moment.min.js"></script>
+    <script src="vendor/moment/moment.js"></script>
+    <script src="vendor/showdown/compressed/showdown.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
