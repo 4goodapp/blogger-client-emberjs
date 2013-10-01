@@ -4,9 +4,17 @@ blogger-client
 
 An Ember.js blogger application and use jade template engine
 
-## jade to html
+## Powered
+
+- EmberJS
+- bower
+- jade
 
 `$ jade -P views/index.jade public/`
+
+- EditorConfig
+
+
 
 ## Reference
 
