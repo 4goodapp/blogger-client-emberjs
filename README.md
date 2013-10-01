@@ -1,12 +1,14 @@
 =======
-blogger-client
+blogger-client-emberjs
 ==============
 
-An Ember.js blogger application and use jade template engine
+An Ember.js blogger application with jade template engine
 
 ## Powered
 
 - EmberJS
+- Bootstrap
+- MomentJS
 - bower
 - jade
 
